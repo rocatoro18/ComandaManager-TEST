@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1654579831">
-  <project timestamp="1654579831">
+<coverage generated="1654583023">
+  <project timestamp="1654583023">
     <file name="/Users/rocatoro18/Desktop/ComandaManager-App/app/Console/Kernel.php">
       <class name="App\Console\Kernel" namespace="global">
         <metrics complexity="2" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="3" coveredelements="3"/>
