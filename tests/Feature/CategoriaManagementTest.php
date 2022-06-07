@@ -12,7 +12,7 @@ class CategoriaManagementTest extends TestCase
 {
     use RefreshDatabase;
     /** @test */
-    public function a_category_can_be_created()
+    public function categoria_puede_ser_creada()
     {
         $this->withoutExceptionHandling();
 
@@ -32,7 +32,7 @@ class CategoriaManagementTest extends TestCase
 
     
     /** @test */
-    public function list_of_categories_can_be_retrieved()
+    public function lista_de_categoria_puede_ser_recuperada()
     {
         $this->withoutExceptionHandling();
 
@@ -53,7 +53,7 @@ class CategoriaManagementTest extends TestCase
     }
     
     /** @test */
-    public function a_category_can_be_retrieved()
+    public function categoria_puede_ser_recuperada()
     {
         $this->withoutExceptionHandling();
 
@@ -73,7 +73,7 @@ class CategoriaManagementTest extends TestCase
     }
 
     /** @test */
-    public function a_category_can_be_updated()
+    public function categoria_puede_ser_actualizada()
     {
         $this->withoutExceptionHandling();
 
@@ -94,7 +94,7 @@ class CategoriaManagementTest extends TestCase
     }
 
     /** @test */
-    public function a_category_can_be_deleted()
+    public function categoria_puede_ser_eliminada()
     {
         $this->withoutExceptionHandling();
 
@@ -109,7 +109,7 @@ class CategoriaManagementTest extends TestCase
     }
 
     /** @test */
-    public function category_name_is_required()
+    public function nombre_categoria_requerido()
     {
         //$this->withoutExceptionHandling();
         
