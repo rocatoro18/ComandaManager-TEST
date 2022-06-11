@@ -40,4 +40,6 @@ class ReporteController extends Controller
     public function exportar(Request $request){
         return Excel::download(new ReporteVentaExport($request->dateStart, $request->dateEnd), 'ReporteVenta.xlsx');
     }
+
+    
 }
