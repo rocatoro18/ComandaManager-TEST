@@ -13,8 +13,9 @@ class CreateCajeroTable extends Migration
      */
     public function up()
     {
-        Schema::create('cajero', function (Blueprint $table) {
-            $table->id();
+        Schema::create('cajeros', function (Blueprint $table) {
+            $table->bigIncrements('id');
+            $table->string('nombre');
             $table->timestamps();
         });
     }

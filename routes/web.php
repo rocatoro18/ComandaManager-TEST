@@ -31,3 +31,14 @@ Route::get('/administrar/categoria/{categoria}','App\Http\Controllers\CategoriaC
 Route::put('/administrar/categoria/actualizar/{categoria}','App\Http\Controllers\CategoriaController@update');
 
 Route::delete('/administrar/categoria/eliminar/{categoria}','App\Http\Controllers\CategoriaController@destroy');
+
+
+Route::post('/administrar/cajero/crear','App\Http\Controllers\CajeroController@store');
+
+Route::get('/administrar/cajero','App\Http\Controllers\CajeroController@index');
+
+Route::get('/administrar/cajero/{categoria}','App\Http\Controllers\CajeroController@show');
+
+Route::put('/administrar/cajero/actualizar/{categoria}','App\Http\Controllers\CajeroController@update');
+
+Route::delete('/administrar/cajero/eliminar/{categoria}','App\Http\Controllers\CajeroController@destroy');
