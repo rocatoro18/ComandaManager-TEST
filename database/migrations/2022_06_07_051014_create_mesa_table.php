@@ -13,8 +13,9 @@ class CreateMesaTable extends Migration
      */
     public function up()
     {
-        Schema::create('mesa', function (Blueprint $table) {
-            $table->id();
+        Schema::create('mesas', function (Blueprint $table) {
+            $table->bigIncrements('id');
+            $table->string('nombre');
             $table->timestamps();
         });
     }
@@ -26,6 +27,6 @@ class CreateMesaTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('mesa');
+        Schema::dropIfExists('mesas');
     }
 }

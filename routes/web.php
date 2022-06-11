@@ -42,3 +42,14 @@ Route::get('/administrar/cajero/{categoria}','App\Http\Controllers\CajeroControl
 Route::put('/administrar/cajero/actualizar/{categoria}','App\Http\Controllers\CajeroController@update');
 
 Route::delete('/administrar/cajero/eliminar/{categoria}','App\Http\Controllers\CajeroController@destroy');
+
+
+Route::post('/administrar/mesa/crear','App\Http\Controllers\MesaController@store');
+
+Route::get('/administrar/mesa','App\Http\Controllers\MesaController@index');
+
+Route::get('/administrar/mesa/{categoria}','App\Http\Controllers\MesaController@show');
+
+Route::put('/administrar/mesa/actualizar/{categoria}','App\Http\Controllers\MesaController@update');
+
+Route::delete('/administrar/mesa/eliminar/{categoria}','App\Http\Controllers\MesaController@destroy');
